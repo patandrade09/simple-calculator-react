@@ -1,0 +1,78 @@
+button{
+    width: 3em;
+    height: 3em;
+    font-size: 1.5em;
+    border: none;
+    border-radius: 2em;
+    margin: 0.3em;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color:#a2708a
+}
+
+.wrapper{
+    background-color:#613f75;
+    border-radius: 1em;
+    padding: 1em 1em;
+    margin: auto;
+    width:22em;
+    margin-top:2em
+}
+
+.ultraRed{
+    background-color: #EF798A;
+    color: black;
+}
+
+.queenPink{
+    background-color: #E5C3D1;
+    color: black;
+}
+.result{
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 1em;
+    font-size:3.5em;
+}
+
+.pastelPink{
+    background-color: #f7a9a8;
+    color: black
+}
+
+@media (max-width: 420px) {
+    button{
+    width: 2.5em;
+    height: 2.5em;
+    font-size: 1.5em;
+}
+
+.wrapper{
+    width:20em;
+    padding:1em
+}
+.result{
+    margin-right: .7em;
+}
+
+}
+@media (max-width: 300px) {
+    button{
+    width: 2em;
+    height: 2em;
+    font-size: 1em;
+}
+
+.wrapper{
+    width:12em;
+    padding:1em
+}
+.result{
+    font-size:2em;
+    margin-right: .7em;
+}
+
+}
