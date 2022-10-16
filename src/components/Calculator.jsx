@@ -37,13 +37,13 @@ const Calculator = () => {
 
   const HandlerResults = () => {
     if (operator === "/") {
-      return setDigit((parseFloat(prevDigit) / parseFloat(digit)).toFixed(4));
+      return setDigit((parseFloat(prevDigit) / parseFloat(digit)).toFixed(2));
     } else if (operator === "+") {
-      return setDigit((parseFloat(prevDigit) + parseFloat(digit)).toFixed(4));
+      return setDigit((parseFloat(prevDigit) + parseFloat(digit)).toFixed(2));
     } else if (operator === "X") {
-      return setDigit((parseFloat(prevDigit) * parseFloat(digit)).toFixed(4));
+      return setDigit((parseFloat(prevDigit) * parseFloat(digit)).toFixed(2));
     } else if (operator === "-"){
-      return setDigit((parseFloat(prevDigit) - parseFloat(digit)).toFixed(4));
+      return setDigit((parseFloat(prevDigit) - parseFloat(digit)).toFixed(2));
     }
   }
 
