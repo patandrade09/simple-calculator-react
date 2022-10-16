@@ -103,7 +103,7 @@ const Calculator = () => {
               0
             </button>
             <button onClick={HandlerInputNum} value={'.'} className="queenPink">
-              .
+              ,
             </button>
             <button style={{ visibility: 'hidden' }}>.</button>
             <button onClick={HandlerResults}>=</button>
